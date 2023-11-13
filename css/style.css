@@ -1,0 +1,511 @@
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+}
+/*==========common-css===================*/
+ul{
+    list-style-type: none;
+}
+input:focus,
+.form-control:focus{
+    outline:0 ;
+    box-shadow: none;
+    color: #FFF;
+
+
+}
+
+
+a,a:hover{
+    text-decoration: none;
+}
+:root{
+       --primary-font: 'Josefin Sans', sans-serif;
+       --secondary-font: 'Roboto', sans-serif;
+    }
+
+.menu2 li a{
+    padding: 38px 20px;
+    display: inline-block;
+    color: #11161E;
+}
+
+.menu1 li a{
+    color: var(--Text-Color, #11161E);
+
+    /* Heading - H7 */
+    font-family: var(--primary-font) ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 38px 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    
+}
+
+
+#banner{
+    background: url(./img/Banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+   
+    height: 800px;
+   
+   
+   
+}
+
+#banner .paragraph h1{
+    color: #1D1D1D;
+
+/* Heading - H1 */
+font-family: var(--primary-font);
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 74px; /* 115.625% */
+
+}
+
+#banner .first{
+    color: #1D1D1D;
+
+/* Heading - H6 */
+font-family: var(--primary-font);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 155.556% */
+}
+
+#banner .second{
+    color: #1D1D1D;
+
+/* Paragraph/body text */
+font-family: var(--secondary-font);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+#banner .shop_now {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 33px;
+    padding-right: 33px;
+    background: #FF6F61;
+    color: var(--Comon-Colot, #FFF);
+    text-align: center;
+
+    /* Button Text 02 */
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    transition: 1s;
+    
+}
+#banner .shop_now:hover{
+    background-color: black;
+    color: #FFF;
+}
+
+#image{
+    margin-top: 15px;
+}
+.shopify{
+    margin-top: 30px;
+}
+
+#products .Arrivals{
+    color:  #11161E;
+text-align: center;
+
+/* Heading - H3 */
+font-family: Josefin Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 127.778% */
+margin-top: 30px;
+}
+
+#products .image_items img{
+    width: 312px;
+    height: 310px;
+}
+
+#products .font_icon{
+    color: orangered;
+    
+}
+
+#search.remova{
+    opacity: 0;
+    visibility: hidden;
+}
+#products .product1 p{
+    margin-top: 15px;
+        color: #11161E;
+    text-align: center;
+
+    /* Heading - H6 */
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+}
+#products .product1 {
+    margin-top: 15px;
+}
+
+#cosmetics .Spa{
+    transform: translate(-10px);
+}
+#cosmetics{
+   
+    background-repeat: no-repeat;
+    height: 400px;
+    
+    
+    background-size: cover;
+    margin-top: 15px;
+}
+
+#cosmetics .Spa{
+    color:  #FFF;
+
+/* Heading - H3 */
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 127.778% */
+
+    
+}
+#cosmetics #secondary{
+    color: #FFF;
+
+/* Paragraph/body text */
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+
+    #cosmetics h3{
+        color:  #FFF;
+
+    /* Heading - H3 */
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 127.778% */
+    }
+
+
+    #cosmetics .Shopify a{
+        color:  #FFF;
+    text-align: center;
+
+    /* Button Text 02 */
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    border: 2px solid #FFF;
+    padding: 13px 33px;
+    transition: 1s;
+
+    }
+    #cosmetics .Shopify a:hover{
+        background-color: #FFF;
+        color: #11161E;
+    }
+    #cosmetics .Shopify{
+        margin-top: 15px;
+    }
+
+    #seller_products .best_seller{
+        padding: 30px 15px;
+        
+    }
+    #seller_products .best_seller h1{
+            color:  #11161E;
+            text-align: center;
+
+            /* Heading - H3 */
+            font-family: var(--primary-font);
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 46px; /* 127.778% */
+    }
+
+    #seller_products p{
+        color:  #11161E;
+        text-align: center;
+
+        /* Heading - H6 */
+        font-family: Josefin Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 155.556% */
+        padding-top: 15px;
+    }
+    #seller_products h4{
+                color:  #11161E;
+        text-align: center;
+
+        /* Heading - H6 */
+        font-family: Josefin Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 155.556% */
+    }
+
+    #seller_products .menu5{
+        margin-top: 35px;
+        box-shadow: -10px -10px 1px #dac9c9,-10px -10px 1px #dac9c9,-10px -10px 1px #dac9c9;
+        border-radius: 5px;
+    }
+    .menu5 img{
+        border-radius: 10px;
+        width: 100%;
+        
+    }
+
+    #seller_products .menu6{
+        margin-top: 50px;
+        border: 2px solid black;
+
+    }
+    #seller_products .menu6 a{
+                color:  #FFF;
+                text-align: center;
+
+                /* Button Text */
+                font-family: var(--primary-font);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px; /* 175% */
+                background-color: #FF6F61;
+                padding: 25px 35px;
+                transition: 1s;
+        
+        
+    }
+
+    #seller_products .menu6 a:hover{
+        background-color: #11161E;
+        color: #FFF;
+
+    }
+
+    #seller_products .menu4{
+        box-shadow: 0px, 0px ,0px, #dac9c9;
+        border: 2px solid black;
+        gap: 2rem;
+        
+    }
+
+    #theday h2{
+        margin-top: 35px;
+                color: var(--Text-Color, #11161E);
+        text-align: center;
+
+        /* Heading - H3 */
+        font-family: Josefin Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px; /* 127.778% */
+    }
+
+    #theday{
+        height: 250px;
+        
+    }
+
+    .dadu{
+        border: 1px solid black;
+        box-shadow: -10px -5px 5px white;
+    }
+
+    .first1_image{
+        box-shadow: 0px 0px 100px 10px black;
+        
+    }
+
+    .first1_image img{
+        width: 100%;
+        height: 514px;
+    }
+
+    #shine{
+        margin-top: 35px;
+    }
+
+    #shine .second_image img{
+        width: 100%;
+
+    }
+
+    #shine h4{
+                color: var(--Paragraph-Color, #444);
+
+        /* Heading - H7 */
+        font-family: Josefin Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    #shine h1{
+        color: #11161E;
+
+/* Heading - H3 */
+        font-family: var(--primary-font);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px; /* 127.778% */
+    }
+
+    #shine p{
+        color:  #444;
+
+        /* Paragraph/body text */
+        font-family: var(--secondary-font);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+    }
+
+
+
+    #search{
+        position: fixed;
+        inset: 0;
+        background-color: #1D1D1D;
+        transform: scale(0);
+    }
+
+    #search.show{
+        transform: scale(1);
+      
+        background-color: #1D1D1D;
+       
+    }
+
+    #search .search_form{
+        border: 2px solid red;
+        border-radius: 50px;
+        padding: 15px 20px;
+        width: 70%;
+    
+    }
+
+
+
+    #search .search_form input{
+        width: 100%;
+        background: none;
+        border: none;
+    }
+    #search #close_button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: 1s;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        background: none;
+        border: none;
+        color: #FF6F61;
+        border: 5px solid red;
+        
+    }
+    #search #close_button:hover{
+        transform: rotate(60deg);
+
+    }
+#search.remova{
+    display: none;
+}
+
+#end h2{
+        color:  #11161E;
+    text-align: center;
+
+    /* Heading - H3 */
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 127.778% */
+    margin-top: 32px;
+}
+
+#end h3{
+    color:  #11161E;
+
+/* Heading - H5 */
+font-family: var(--primary-font);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+}
+#end p{
+        color:  #444;
+
+    /* Paragraph/body text */
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+#end a{
+    color:  #444;
+
+/* Button Text */
+font-family: Josefin Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 175% */
+}
+
+#end .section_1{
+    box-shadow: 0 0 100px 5px  black;
+}
+
+#end img{
+    width: 100%;
+}
+
+#end2 .section_2 i{
+    background-color: #FF6F61;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    
+}
